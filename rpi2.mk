@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES := \
     device/generic/goldfish/camera/media_profiles.xml:system/etc/media_profiles.xml \
     device/generic/goldfish/camera/media_codecs.xml:system/etc/media_codecs.xml \
     $(LOCAL_PATH)/rpi2_core_hardware.xml:system/etc/permissions/rpi2_core_hardware.xml \
+    $(LOCAL_PATH)/init.rc:root/init.rc \
     $(LOCAL_PATH)/init.rpi2.rc:root/init.rpi2.rc \
     $(LOCAL_PATH)/init.usb.rc:root/init.usb.rc \
     $(LOCAL_PATH)/fstab.rpi2:root/fstab.rpi2 \
