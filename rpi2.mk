@@ -15,7 +15,7 @@ PRODUCT_PACKAGES += \
     libGLES_android
 
 PRODUCT_COPY_FILES := \
-    frameworks/native/data/etc/android.hardware.ethernet.xml:system/etc/permissions/android.hardware.ethernet.xml \
+    $(LOCAL_PATH)/android.hardware.ethernet.xml:system/etc/permissions/android.hardware.ethernet.xml \
     frameworks/native/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml \
     device/generic/goldfish/camera/media_profiles.xml:system/etc/media_profiles.xml \
     device/generic/goldfish/camera/media_codecs.xml:system/etc/media_codecs.xml \
